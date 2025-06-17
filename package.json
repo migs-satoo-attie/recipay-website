@@ -1,0 +1,35 @@
+{
+  "name": "recipay-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migs-satoo-attie/recipay-website.git"
+  },
+  "author": "migs-satoo-attie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/migs-satoo-attie/recipay-website/issues"
+  },
+  "homepage": "https://github.com/migs-satoo-attie/recipay-website#readme",
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.5",
+    "@tailwindcss/postcss": "^4.1.10",
+    "tailwindcss": "^4.1.10",
+    "eslint": "9.29.0",
+    "eslint-config-next": "15.3.3",
+    "prettier": "^3.5.3"
+  }
+}
