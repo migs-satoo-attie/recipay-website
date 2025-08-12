@@ -1,3 +1,5 @@
+import Header from "src/components/Header";
+
 export default function Page() {
-  return <h1 className="text-2xl text-blue-600">Hello, Next.js!</h1>;
+  return <Header />;
 }
