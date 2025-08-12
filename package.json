@@ -1,0 +1,35 @@
+{
+  "name": "recipay-website",
+  "version": "1.0.0",
+  "description": "## [www.recipay.com.br](https://www.recipay.com.br)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "jest:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "migs-satoo-attie",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.1.10",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.9.2"
+  }
+}
